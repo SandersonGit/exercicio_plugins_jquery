@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #0c52ff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%232c44eb' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%234b37d7' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%236b29c2' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%238a1cae' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23AA0E9A' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  margin: 0 auto;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 40px 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.container img {
+  height: 5vh;
+}
+
+.container-form {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    /* margin: 20px 0; */
+    /* gap: 5px;
+    align-items: center;
+    justify-content: flex-start; */
+}
+
+.form label {
+    color: #fff;
+    
+}
+.form input {
+    background-color: #fff;
+    
+    width: 250px;
+    height: 30px;
+    color: black;
+    font-size: 14px;
+    /* opacity: 0.5; */
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.form button {
+    margin-top: 20px;
+    width: 100px;
+    background-color: #0c52ff;
+    color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 70px;
+}
