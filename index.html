@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Exercício JQuery</title>
+  </head>
+  <body>
+    <header class="container">
+      <img src="assets/contact-form_3447545.png" alt="Imagem de formulário" />
+      <h1>FORMULÁRIO DE CADASTRO</h1>
+    </header>
+
+    <section>
+        <div class="container-form">
+            <form class="form">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required placeholder="Nome completo"/>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" required placeholder="Telefone"/>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="Email"/>
+
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" required placeholder="CPF"/>
+
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" required placeholder="Endereço completo"/>
+
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep" required placeholder="CEP da rua"/>
+
+                <button type="submit">ENVIAR</button>
+                
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
